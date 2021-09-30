@@ -1,0 +1,21 @@
+/*
+THEME:   Note Yeti Template
+VERSION: 1.0.0
+AUTHOR: Note Yeti
+GITHUB: 
+WEBSITE: 
+*/
+@import 'variables';
+@import'typography';
+@import'default';
+@import 'common';
+
+// Theme Custom Style
+@import 'pages/starting';
+@import 'pages/newnote';
+@import 'pages/subscription';
+@import 'pages/tags';
+@import 'pages/archives';
+@import 'pages/empty';
+@import 'pages/home';
+@import 'pages/header';

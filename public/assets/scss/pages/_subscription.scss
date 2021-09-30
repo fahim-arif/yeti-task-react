@@ -1,0 +1,70 @@
+// Subscription Page Design Starts Here
+.subscription-area{
+    &-row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 80px;
+        padding-bottom: 30px;
+        .subscription-wizerd{
+            margin-bottom: 50px;
+        }
+        h5{
+            font-weight: 800;
+            font-size: 23.7733px;
+            line-height: 36px;
+            text-align: center;
+            color: #33435B;
+            margin-bottom: 55px;
+        }
+        .small-heading{
+            font-weight: 800;
+            font-size: 18px;
+            line-height: 27px;
+            text-decoration-line: underline;
+            color: #33435B;
+        }
+        .accent-btn-sm{
+            margin-top: 40px;
+        }
+        .paid-features-area{
+            margin-left: 70px;
+            .small-heading{
+                margin-left: 16px;
+            }
+        }
+    }
+}
+// Subscription Page Design Ends Here
+
+// Responsiv
+@media (max-width: 420px) {
+    .subscription-area-row{
+        padding-top: 50px;
+    }
+    .subscription-wizerd h6{
+        font-size: 16.5px;
+        line-height: 24px;
+    }
+    .subscription-area-row h5{
+        font-size: 18px;
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 991px) {
+    .subscription-wizerd{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .subscription-area-row .paid-features-area {
+        margin-left: 0;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .small-heading{
+            margin-left: 0;
+        }
+    }
+    
+}

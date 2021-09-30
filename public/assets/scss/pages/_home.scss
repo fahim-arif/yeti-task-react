@@ -1,0 +1,164 @@
+// Home Screen Starts Here
+.home-screen {
+    overflow: hidden;
+    .user-profile{
+        padding-bottom: 20px;
+    }
+    &-top {
+        margin-top: 15px;
+        margin-bottom: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        .filter-bnt{
+            position: relative;
+        }
+        .dropdown-content{
+            border-radius: 5px;
+            position: absolute;
+            bottom: -80px;
+            right: 45px;
+        }
+        .btn {
+            margin-right: 25px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .archives-wizerd-subtitle {
+        margin-bottom: 12px !important;
+        display: block;
+    }
+
+    .archives-wizerd {
+        padding: 20px 15px;
+        margin-bottom: 30px;
+        position: relative;
+        .right-click{
+            position: absolute;
+            top: -20px;
+            left: -8px;
+        }
+    }
+
+    .null-wizerd {
+        margin-bottom: 30px;
+
+        &:nth-child(3) {
+            margin-bottom: 50px;
+        }
+    }
+}
+
+// Home Screen Ends Here
+
+//Responsive ==>
+
+@media (max-width: 420px) {
+    .home-screen {
+        &-top {
+            justify-content: space-around;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+
+            .dropbtn {
+                margin-top: 10px;
+            }
+        }
+
+        .info-btn,
+        .dark-btn {
+            padding: 10px 20px;
+            font-size: 14px;
+        }
+    }
+
+    .home-screen-top .btn {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 574px) {
+    .home-screen {
+        &-top {
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .dropbtn {
+                margin-top: 10px;
+            }
+        }
+
+        .info-btn,
+        .dark-btn {
+            padding: 10px 20px;
+            font-size: 14px;
+        }
+    }
+
+    .home-screen-top .btn {
+        margin-right: 10px;
+    }
+    .clicking-area{
+        .home-screen-top{
+            margin: 25px 0px;
+        }
+    }
+}
+
+@media (min-width: 575px) and (max-width: 767px) {
+    .home-screen {
+
+        .info-btn,
+        .dark-btn {
+            padding: 10px 20px;
+            font-size: 14px;
+        }
+    }
+
+    .home-screen-top .btn {
+        margin-right: 10px;
+    }
+    .clicking-area{
+        .home-screen-top{
+            margin: 30px 0px;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .home-screen-top .btn {
+        margin-right: 15px;
+    }
+    .clicking-area{
+        .home-screen-top{
+            margin: 30px 0px;
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .border-button {
+        font-size: 16px;
+        padding: 5px 15px;
+    }
+
+    .home-screen {
+        .archives-wizerd-title {
+            font-size: 18px !important;
+        }
+
+        .accent-btn-sm {
+            padding: 10px 30px;
+        }
+    }
+    .clicking-area{
+        .home-screen-top{
+            margin: 40px 0px;
+        }
+    }
+}

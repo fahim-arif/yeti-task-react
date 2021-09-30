@@ -1,0 +1,120 @@
+/*  typography Starts Here*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: $primary-font;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+p,
+.paragraph {
+    font-family: $primary-font;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $primary-font;
+    font-weight: 700;
+}
+
+h1,
+.h1 {
+    font-size: 52px;
+}
+
+h2,
+.h2 {
+    font-size: 44px;
+}
+
+h3,
+.h3 {
+    font-size: 48px;
+}
+
+h4,
+.h4 {
+    font-size: 36px;
+}
+
+h5,
+.h5 {
+    font-size: 16px;
+}
+
+h6,
+.h6 {
+    font-size: 14px;
+}
+.lead{
+    font-size: 24px;
+    font-weight: 500;
+}
+.main-lead{
+    font-weight: 500;
+    font-size: 36px;
+}
+/*  typography Ends Here*/
+
+//Responsive ==>
+// extra Small devices 420px 
+@media (max-width: 420px) {
+h2,
+.h2 {
+    font-size: 33px;
+}
+.lead{
+    font-size: 18px;
+}
+}
+
+// Small devices 420px - 574px 
+@media only screen and (min-width: 420px) and (max-width: 574px) {
+h2,
+.h2 {
+    font-size: 40px;
+}
+.lead{
+    font-size: 18px;
+}
+}
+
+// Small devices 575px - 767px 
+@media (min-width: 575px) and (max-width: 767px) {
+h2,
+.h2 {
+    font-size: 40px;
+}
+.lead{
+    font-size: 20px;
+}
+}
+
+// Medium devices 768px - 991px 
+@media (min-width: 768px) and (max-width: 991px) {
+h2,
+.h2 {
+    font-size: 40px;
+}
+.lead{
+    font-size: 22px;
+}
+}
+
+// large devices 992px - 1200px
+@media (min-width: 992px) and (max-width: 1200px) {
+h2,
+.h2 {
+    font-size: 40px;
+}
+.lead{
+    font-size: 22px;
+}
+}

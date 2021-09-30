@@ -1,0 +1,388 @@
+// Get Started Area Starts Here
+.starting{
+    &-bg{
+        background-position:center;
+        background-repeat: no-repeat;
+        background-size:cover;
+    }
+    &-left{
+        &-text{
+            margin-top: 36px;
+        }
+    }
+    &-right{
+        background-color: $primary-color;
+        &-content{
+            padding-top: 70px;
+            padding-left: 50px;
+            padding-bottom: 50px;
+            .normal-heading{
+                margin-bottom: 55px;
+                max-width: 508px;
+                margin-top: 15px;
+            }
+        }
+    }
+    .reg-info{
+        margin-top: 80px;
+    }
+}
+.another-signup{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.area-line{
+    margin-bottom: 60px;
+    &-left{
+        border: 0.5px solid #F8FCEF;
+        border-top: 0px;
+        border-left-width: 300px;
+    }
+    &-right{
+        border: 0.5px solid #F8FCEF;
+        border-top: 0px;
+        border-right-width: 300px;
+    }
+    span{
+        text-align: center;
+        width: 38px;
+        height: 43px;
+        margin: 0 8px;
+        background: $primary-color;
+    }
+}
+.signup-form{
+    max-width: 690px;
+}
+.signup-form{
+    form{
+        .custom-input{
+            background: #2C394E;
+            border-radius: 60px;
+            padding: 18px 36px;
+            border-color: #2C394E;
+            color: $secondary-text;
+            font-weight: 500;
+            font-size: 18px;
+            transition: 0.3s all linear;
+            &:focus{
+                border-color: $secondary-text;
+            }
+        }
+    }
+}
+// Get Started Area Ends Here
+
+//Responsive ==>
+// extra Small devices 420px 
+@media (max-width: 420px) {
+    .starting{
+        &-right{
+            padding-top: 30px;
+            padding-bottom: 30px;
+            &-content{
+                padding: 0;
+                h2{
+                    text-align: center;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+        .reg-info{
+            margin-top: 40px;
+        }
+    }
+    .area-line {
+        margin-bottom: 25px;
+        &-left{
+            border-left-width: 120px;
+        }
+        &-right{
+            border-right-width: 120px;
+        }
+    }
+    .another-signup{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .signup-form{
+        form{
+            .custom-input{
+                font-size: 14px;
+                padding: 15px 25px;
+            }
+        }
+    }
+    .sub-pages{
+        h2{
+            font-size: 33px;
+        }
+        .normal-heading{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .submit-area{
+            margin-top: 0 !important;
+        }
+    }
+}
+@media only screen and (min-width: 420px) and (max-width: 456px){
+    .another-signup{
+        max-width: 60% !important;
+    }
+}
+// Small devices 420px - 574px 
+@media only screen and (min-width: 420px) and (max-width: 574px) {
+    .starting{
+        &-right{
+            padding-top: 30px;
+            padding-bottom: 30px;
+            &-content{
+                padding: 0;
+                h2{
+                    text-align: center;
+                    margin-bottom: 15px;
+                }
+            }
+        }
+        .reg-info{
+            margin-top: 40px;
+        }
+    }
+    .area-line {
+        margin-bottom: 25px;
+        &-left{
+            border-left-width: 120px;
+        }
+        &-right{
+            border-right-width: 120px;
+        }
+    }
+    .another-signup{
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .signup-form{
+        form{
+            .custom-input{
+                font-size: 14px;
+                padding: 15px 25px;
+            }
+        }
+    }
+    .sub-pages{
+        .normal-heading{
+            text-align: center;
+            max-width: 100%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .submit-area{
+            margin-top: 30px !important;
+        }
+    }
+}
+
+// Small devices 575px - 767px 
+@media (min-width: 575px) and (max-width: 767px) {
+    .area-line {
+        margin-bottom: 25px;
+        &-left{
+            border-left-width: 120px;
+        }
+        &-right{
+            border-right-width: 120px;
+        }
+    }
+    .starting{
+        .reg-info{
+            margin-top: 40px;
+        }
+        &-right{
+            padding-top: 30px;
+            padding-bottom: 30px;
+            &-content{
+                padding: 0;
+                h2{
+                    text-align: center;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    .another-signup {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .area-line {
+        margin-bottom: 30px;
+        &-left{
+            border-left-width: 220px;
+        }
+        &-right{
+            border-right-width: 220px;
+        }
+    }
+    .signup-form{
+        form{
+            .custom-input{
+                font-size: 16px;
+                padding: 15px 25px;
+            }
+        }
+    }
+    .sub-pages{
+        .normal-heading{
+            text-align: center;
+            max-width: 100%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .submit-area{
+            margin-top: 30px !important;
+        }
+    }
+}
+
+// Medium devices 768px - 991px 
+@media (min-width: 768px) and (max-width: 991px) {
+.starting{
+    .reg-info{
+        margin-top: 45px;
+    }
+    &-right{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        &-content{
+            padding: 0;
+            h2{
+                text-align: center;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+.another-signup {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.area-line {
+    margin-bottom: 30px;
+}
+.signup-form{
+    margin-left: auto;
+    margin-right: auto;
+    form{
+        .custom-input{
+            font-size: 16px;
+            padding: 20px 30px;
+        }
+    }
+}
+.sub-pages{
+    .normal-heading{
+        text-align: center;
+        max-width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .submit-area{
+        margin-top: 30px !important;
+    }
+}
+}
+
+// large devices 992px - 1200px
+@media (min-width: 992px) and (max-width: 1200px) {
+.starting{
+    .reg-info{
+        margin-top: 50px;
+    }
+    &-right{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        &-content{
+            padding-left: 25px;
+            padding-top: 0;
+            padding-bottom: 30px;
+            h2{
+                text-align: center;
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+.another-signup {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.area-line {
+    margin-bottom: 35px;
+    &-left{
+        border-left-width: 230px;
+    }
+    &-right{
+        border-right-width: 230px;
+    }
+}
+.signup-form{
+    form{
+        .custom-input{
+            font-size: 16px;
+            padding: 18px 28px;
+        }
+    }
+}
+.sub-pages{
+    h2{
+        font-size: 40px;
+    }
+    .normal-heading{
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        max-width: 80%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .submit-area{
+        margin-top: 35px !important;
+    }
+}
+}
+
+// Extra
+@media (min-width: 1201px){
+    .g-btn{
+        margin-right: 25px !important;
+    }
+    .area-line {
+        &-left{
+            border-left-width: 270px;
+        }
+        &-right{
+            border-right-width: 270px;
+        }
+    }
+    .negative-flex{
+        justify-content: start !important;
+    }
+}

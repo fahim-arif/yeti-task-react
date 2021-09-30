@@ -1,0 +1,44 @@
+// Manage Tags Area Starts Here
+.manage-tags{
+    min-height: 100vh;
+    &-area{
+        margin: 50px 0px;
+        h4{
+            color: #33435B;
+            margin-bottom: 0;
+        }
+    }
+    .tags-wizerd{
+        margin-bottom: 50px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+    &-bottom{
+        padding-top: 200px;
+    }
+}
+// Manage Tags Area Ends Here
+
+// Responsive
+@media (max-width: 991px) {
+    .manage-tags-bottom{
+       padding-top: 50px;
+    }
+}
+@media (max-width: 574px) {
+    .tags-wizerd{
+        padding: 20px;
+        .btn{
+            &:last-child{
+                flex-shrink: 0;
+            }
+        }
+    }
+    .tags-wizerd-left{
+        h6{
+            font-size: 20px;
+            margin-left: 10px;
+        }
+    }
+}

@@ -1,0 +1,35 @@
+// Empty Screen Starts Here
+.empty-screen{
+    img{
+        margin-top: 150px;
+        margin-bottom: 80px;
+    }
+}
+// Empty Screen Ends Here
+
+// Responsive
+@media (max-width: 420px) {
+    .empty-screen{
+        img{
+            margin-top: 50px;
+            margin-bottom: 0px;
+        }
+        .accent-btn-sm{
+            margin-left: 50px;
+            padding: 10px 30px;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 420px) and (max-width: 991px) {
+    .empty-screen{
+        img{
+            margin-top: 50px;
+            margin-bottom: 30px;
+        }
+        .accent-btn-sm{
+            margin-left: 50px;
+        }
+    }
+}
